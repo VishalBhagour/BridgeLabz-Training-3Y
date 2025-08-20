@@ -13,7 +13,6 @@ public class DistanceConverter {
         double distanceInMiles = distanceInYards / 1760;
 
         System.out.printf("The distance in yards is %.2f while the distance in miles is %.4f%n", distanceInYards, distanceInMiles);
-
-    }
+    }
 }
 
