@@ -35,7 +35,7 @@ public class PlayListManagaer {
                     String name = sc.nextLine();
                     boolean found = false;
                     for (String song : songs) {
-                        if (song.equalsIgnoreCase(name)) {
+                        if (song.equals(name)) {
                             System.out.println("Found! Playing: " + song);
                             found = true;
                             break;
